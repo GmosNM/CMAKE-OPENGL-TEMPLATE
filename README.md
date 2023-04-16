@@ -15,6 +15,7 @@ glm = [https://github.com/g-truc/glm]
 CMAKE
 
 ```console
+$ git submodule update --init --recursive
 $ cmake -B bld
 $ cmake --build bld
 ```
