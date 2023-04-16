@@ -19,3 +19,11 @@ $ git submodule update --init --recursive
 $ cmake -B bld
 $ cmake --build bld
 ```
+if you have ninja 
+
+```console
+$ git submodule update --init --recursive
+$ cmake -GNinja -B bld
+$ cmake --build bld
+$ ./bld/CMAKE-TEMPLATE
+```
