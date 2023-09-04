@@ -39,11 +39,9 @@ include_directories(
 target_link_libraries(${CMAKE_PROJECT_NAME}
         glfw
         glad
+        freetype
         ${OPENGL_LIBRARIES}
         ${EXTRA_LIBS}
 )
-
-target_link_libraries(${CMAKE_PROJECT_NAME} ${FREETYPE_LIBRARIES})
-target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE ${FREETYPE_INCLUDE_DIRS})
 
 
